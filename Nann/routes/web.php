@@ -24,3 +24,7 @@ Route::resource('colors','ColorController');
 Route::resource('sizes','SizeController');
 
 Route::resource('brands','BrandController');
+
+Route::resource('categories','CategoryController');
+
+Route::resource('subcategories','SubcategoryController');
