@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('dashboard','BackController@dashboard');
 
 Route::resource('colors','ColorController');
+
+Route::resource('sizes','SizeController');
+
+Route::resource('brands','BrandController');

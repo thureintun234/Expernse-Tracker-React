@@ -2,3 +2,9 @@
 -back template,dashboard
 -backcontroller,backroute
 -chage (asset) css,js.. links
+-testing dataTables(search,pagination)
+
+3.9.2020(Thu Rein Tun)
+-color(CRUD)
+-size(CRUD)
+-brand(CRUD)
