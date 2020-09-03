@@ -41,6 +41,24 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+span.del{
+  position: absolute;
+  margin-left: 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color:white;
+}
+input.del{
+  padding-left: 25px;
+  height: 34px;
+}
+
+
+
+
+
+
 *,
 *::before,
 *::after {

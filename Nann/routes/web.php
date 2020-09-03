@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('dashboard','BackController@dashboard');
+
+Route::resource('colors','ColorController');
