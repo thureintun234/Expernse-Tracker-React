@@ -8,3 +8,7 @@
 -color(CRUD)
 -size(CRUD)
 -brand(CRUD)
+-category(CRUD)
+-subcategory(CRUD)
+
+4.9.2020(Thu Rein Tun)

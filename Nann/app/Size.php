@@ -10,4 +10,10 @@ class Size extends Model
     protected $fillable = [
         'name'
     ];
+
+    public function items($value='')
+    {
+        return $this->belongsToMany('App\Item','item_size')
+                    ->withTimestamps();
+    }
 }

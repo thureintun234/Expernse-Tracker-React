@@ -10,4 +10,10 @@ class Color extends Model
     protected $fillable = [
         'name', 'photo'
     ];
+
+    public function items($value='')
+    {
+        return $this->belongsToMany('App\Item','color_item')
+                    ->withTimestamps();
+    }
 }

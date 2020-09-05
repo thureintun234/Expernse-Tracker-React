@@ -15,4 +15,10 @@ class Subcategory extends Model
     {
     	return $this->belongsTo('App\Category');
     }
+
+    public function items($value='')
+    {
+    	return $this->hasMany('App\Item');
+    }
+
 }
