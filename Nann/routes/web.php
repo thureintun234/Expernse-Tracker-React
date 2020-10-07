@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('dashboard','BackController@dashboard');
+Route::get('dashboard','BackController@dashboard')->name('dashboard');
 
 Route::resource('colors','ColorController');
 
@@ -30,3 +30,18 @@ Route::resource('categories','CategoryController');
 Route::resource('subcategories','SubcategoryController');
 
 Route::resource('items','ItemController');
+
+
+
+
+
+
+
+
+// frontend
+Route::get('home','FrontendController@home')->name('home');
+
+Route::get('itemdetail/{id}','FrontendController@itemdetail')->name('itemdetail');
+
+Route::get('itemfilter','FrontendController@item')->name('itemfilter');
+Route::post('getitems','FrontendController@getItems')->name('getitems');
